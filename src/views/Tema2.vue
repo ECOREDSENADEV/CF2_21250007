@@ -59,7 +59,7 @@
         .bg-color-15.tarjeta
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/9.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Este enfoque promueve una comprensión profunda del predio como espacio habitado, cultivado y significado, en el que las decisiones productivas están conectadas con la cultura, la historia y las aspiraciones de quienes lo trabajan. Así, la cartografía predial agroecológica se convierte en un instrumento transformador, que orienta el manejo sostenible del territorio desde una perspectiva de soberanía, identidad y resiliencia.
@@ -73,7 +73,7 @@
 
     .bg-color-16.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/10.png', alt='')
         .col-lg
@@ -168,24 +168,24 @@
     p.mb-5 La comprensión del agroecosistema requiere diferenciar dos dimensiones clave: estructura y composición. Ambas determinan el funcionamiento, la eficiencia y la sostenibilidad del sistema predial. Las diferencias entre estructura y composición del agroecosistema son: 
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
-      .py-3.py-md-4(titulo="Estructura")
+      .p-3.p-md-4(titulo="Estructura")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Estructura
             p Organización espacial de los componentes del predio. Se refiere a cómo están distribuidos y conectados los elementos. 
             p <b>Ejemplo</b>. Distribución de cultivos, cercas vivas, caminos, gallineros, zonas de conservación, fuentes de agua.
 
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/19.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Composición")
+      .p-3.p-md-4(titulo="Composición")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Composición
             p Conjunto de elementos vivos y no vivos presentes en el agroecosistema. Se refiere a qué contiene el sistema.
             p <b>Ejemplo</b>. Tipos de suelo, especies vegetales, fauna, microorganismos, infraestructura, herramientas, relaciones sociales.
 
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/20.png', alt='Texto que describa la imagen')
       
@@ -200,9 +200,9 @@
     p.mb-5 Dos predios pueden tener una composición similar (por ejemplo, cultivos de maíz, frijol y plátano; árboles dispersos; gallinas; una quebrada; y una vivienda familiar), pero presentar estructuras radicalmente diferentes, lo que influye en su eficiencia ecológica y funcional.
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
-      .py-3.py-md-4(titulo="Predio A: Estructura fragmentada")
+      .p-3.p-md-4(titulo="Predio A: Estructura fragmentada")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Predio A: Estructura fragmentada
             ul.lista-ul--color
               li.mb-0.d-flex
@@ -222,12 +222,12 @@
                 p.mb-0 Sin caminos internos ni zonas diferenciadas.
             p <b>Limitaciones</b>: Baja conectividad ecológica, reciclaje ineficiente de nutrientes, manejo complejo
 
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/21.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Predio B: Estructura integrada")
+      .p-3.p-md-4(titulo="Predio B: Estructura integrada")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Predio B: Estructura integrada
             ul.lista-ul--color
               li.mb-0.d-flex
@@ -247,7 +247,7 @@
                 p.mb-0 Caminos internos que conectan áreas productivas, educativas y de descanso.
             p <b>Ventajas</b>: Mayor integración funcional, eficiencia ecológica, resiliencia del sistema, facilidad de manejo.
 
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/22.png', alt='Texto que describa la imagen')
 
@@ -257,7 +257,7 @@
       .col-lg-8
         .bg-color-16.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/23.png', alt='')
             .col-lg
@@ -275,7 +275,7 @@
           .col-lg-10
             .bg-color-2.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/24.png', alt='')
                 .col-lg
@@ -380,7 +380,7 @@
     .bg-color-17.tarjeta.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/38.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Las propiedades emergentes son señales de que un agroecosistema funciona integralmente, y de que tiene la capacidad no solo de sostenerse, sino de cuidar el entorno y generar bienestar colectivo. Su desarrollo es clave para una agroecología viva y transformadora, enraizada en el territorio, sostenida por la cultura y proyectada hacia el futuro.

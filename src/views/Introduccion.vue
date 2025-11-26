@@ -22,7 +22,7 @@
         .bg-full-width.bg-color-4.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 En el ámbito educativo, la cartografía social adquiere un valor formativo y transformador. Al involucrar a estudiantes, docentes y comunidades en la elaboración de mapas colectivos, se promueve una comprensión crítica del entorno, el diálogo de saberes y el fortalecimiento del pensamiento territorial. Este enfoque fomenta el aprendizaje situado y la responsabilidad ambiental, impulsando a las personas a leer, reinterpretar y cuidar el espacio que habitan. Así, la cartografía social no solo representa el territorio: lo resignifica como escenario de encuentro, resistencia y construcción de futuro.

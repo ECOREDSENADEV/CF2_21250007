@@ -9,7 +9,7 @@
     
   
     .row.align-items-center
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema1/1.svg", style="max-width: 90px").mx-auto
       .col-lg
         p.mb-0 Este tema introduce la cartografía social como una herramienta clave para la lectura territorial, la construcción colectiva de conocimiento y el diseño agroecológico situado. Se reconoce su valor metodológico, político y cultural en procesos de transición agroecológica, especialmente en contextos rurales y comunitarios.
@@ -28,7 +28,7 @@
 
         .bg-color-6(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/3.png', alt='')
             .col-lg
@@ -46,7 +46,7 @@
         .bg-color-7.tarjeta.mb-5
           .p-4.p-md-5
             .row.justify-content-center.align-items-center
-              .col-lg-5
+              .col-lg-5.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema1/5.svg", data-aos="zoom-in")
               .col-lg-7
@@ -67,7 +67,7 @@
         .bg-color-15.tarjeta.mb-3.p-3 
           p.mb-0 Asimismo, la cartografía social incorpora dimensiones culturales que los mapas convencionales suelen omitir: sitios sagrados, lugares de encuentro, trayectorias cotidianas, zonas de conflicto, espacios de resistencia, prácticas culturales, afectos y memorias. Esta riqueza expresiva convierte al mapa en una herramienta pedagógica, organizativa y transformadora.
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/7.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 En síntesis, la cartografía social es una forma de leer y escribir el territorio desde adentro. No busca representar lo que “es”, sino lo que significa para quienes lo habitan. Es una invitación a mirar el espacio con otros ojos, a reconocer lo que ha sido invisibilizado y a proyectar colectivamente lo que se desea construir (Piñeiro et al., 2023)
@@ -129,7 +129,7 @@
       .col-lg-10
         .bg-color-15.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/13.png', alt='')
             .col-lg
