@@ -80,6 +80,12 @@ figcaption
     background-color: #E5E2D3
   &-14
     background-color: #6F89A8
+  &-15
+    background-color: #FFF4DA
+  &-16
+    background-color: #DDE6D8
+  &-17
+    background-color: #EDF2EA
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -112,8 +118,8 @@ figcaption
     background-image: url("../assets/curso/bg1.svg") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/curso/bg2.svg") !important
+    background-position: top
   &-slider
     background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
@@ -198,3 +204,21 @@ figcaption
 .titulo-con-imagen__texto
   margin: 0
   padding-left: 50px
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FF9800
+  color: $color-sistema-texto !important
+  &::selection
+    color: $color-sistema-texto !important
+.tabs-a__tab
+  background-color: #D9E8F9
+.tarjeta.color-acento-botones--borde
+  background-color: #D9E8F9
+  border: solid 4px #D9E8F9
+
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #EBF3FC
